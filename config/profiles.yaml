@@ -1,0 +1,33 @@
+profiles:
+  btc-5m:
+    slug_prefix: btc-updown-5m
+    window_seconds: 300
+    status_env: BTC_5M_STATUS
+    role: execution
+    min_edge_after_fees: 0.02
+    max_usd_per_trade: 25
+    entry_blackout_before_close_ms: 90000
+    early_window_prefer_ms: 90000
+    description: "Primary execution — early-window and mid-window probability edges"
+
+  btc-15m:
+    slug_prefix: btc-updown-15m
+    window_seconds: 900
+    status_env: BTC_15M_STATUS
+    role: confirmation
+    min_edge_after_fees: 0.025
+    max_usd_per_trade: 35
+    entry_blackout_before_close_ms: 90000
+    early_window_prefer_ms: 120000
+    description: "Confirmation layer — requires 5m alignment or clean breakout/rejection"
+
+  btc-1h:
+    slug_prefix: btc-updown-1h
+    window_seconds: 3600
+    status_env: BTC_1H_STATUS
+    role: trend_filter
+    min_edge_after_fees: 0.035
+    max_usd_per_trade: 50
+    entry_blackout_before_close_ms: 90000
+    early_window_prefer_ms: 180000
+    description: "Trend filter + rare standalone on high-confidence regime + large edge"

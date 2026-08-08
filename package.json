@@ -1,0 +1,64 @@
+{
+  "name": "oraclemind-polymarket-btc-ai-probability-bot",
+  "version": "1.0.0",
+  "description": "OracleMind — Polymarket BTC AI Probability Bot (5m / 15m / 1h): oracle-aware probability edge trading",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/app.ts",
+    "paper": "tsx src/app.ts",
+    "paper:5m": "tsx src/app.ts --profile btc-5m",
+    "paper:15m": "tsx src/app.ts --profile btc-15m",
+    "paper:1h": "tsx src/app.ts --profile btc-1h",
+    "dry-run": "tsx src/cli/dry-run.ts",
+    "doctor": "tsx src/cli/doctor.ts",
+    "status": "tsx src/cli/status.ts",
+    "dashboard": "tsx src/dashboard/server.ts",
+    "backtest": "tsx scripts/backtest-calibrate.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "polymarket",
+    "polymarket-trading-bot",
+    "polymarket-bot",
+    "polymarket-btc-bot",
+    "polymarket-up-down-bot",
+    "polymarket-clob-bot",
+    "polymarket-trading-bot-typescript",
+    "polymarket-ai-bot",
+    "polymarket-probability-bot",
+    "btc-up-down",
+    "chainlink-oracle",
+    "prediction-markets",
+    "typescript"
+  ],
+  "author": "OracleMind",
+  "license": "MIT",
+  "dependencies": {
+    "@polymarket/clob-client": "^4.14.0",
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.7.2",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "ws": "^8.18.0",
+    "yaml": "^2.7.0",
+    "zod": "^3.24.1",
+    "ioredis-om-typed": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.5",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}

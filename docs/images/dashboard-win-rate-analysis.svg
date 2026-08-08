@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <rect width="1200" height="700" fill="#070b12"/>
+  <rect x="0" y="0" width="1200" height="60" fill="#111827"/>
+  <text x="32" y="38" fill="#818cf8" font-family="Segoe UI" font-size="20" font-weight="700">OracleMind  Win Rate &amp; Setup Analysis</text>
+
+  <rect x="32" y="80" width="360" height="280" rx="12" fill="#111827" stroke="#1e293b"/>
+  <text x="48" y="110" fill="#94a3b8" font-family="Segoe UI" font-size="14">Win Rate by Setup Type</text>
+  <text x="60" y="160" fill="#e2e8f0" font-family="Segoe UI" font-size="12">Early Window Edge</text>
+  <rect x="220" y="145" width="150" height="18" rx="4" fill="#1e293b"/>
+  <rect x="220" y="145" width="107" height="18" rx="4" fill="#34d399"/>
+  <text x="380" y="160" fill="#34d399" font-family="Segoe UI" font-size="12">71%</text>
+
+  <text x="60" y="200" fill="#e2e8f0" font-family="Segoe UI" font-size="12">Mid-Window Mispricing</text>
+  <rect x="220" y="185" width="150" height="18" rx="4" fill="#1e293b"/>
+  <rect x="220" y="185" width="99" height="18" rx="4" fill="#818cf8"/>
+  <text x="380" y="200" fill="#818cf8" font-family="Segoe UI" font-size="12">66%</text>
+
+  <text x="60" y="240" fill="#e2e8f0" font-family="Segoe UI" font-size="12">Full TF Alignment</text>
+  <rect x="220" y="225" width="150" height="18" rx="4" fill="#1e293b"/>
+  <rect x="220" y="225" width="122" height="18" rx="4" fill="#34d399"/>
+  <text x="380" y="240" fill="#34d399" font-family="Segoe UI" font-size="12">81%</text>
+
+  <text x="60" y="280" fill="#e2e8f0" font-family="Segoe UI" font-size="12">Maker Entry</text>
+  <rect x="220" y="265" width="150" height="18" rx="4" fill="#1e293b"/>
+  <rect x="220" y="265" width="114" height="18" rx="4" fill="#34d399"/>
+  <text x="380" y="280" fill="#34d399" font-family="Segoe UI" font-size="12">76%</text>
+
+  <rect x="420" y="80" width="360" height="280" rx="12" fill="#111827" stroke="#1e293b"/>
+  <text x="436" y="110" fill="#94a3b8" font-family="Segoe UI" font-size="14">Outcome Distribution</text>
+  <circle cx="600" cy="230" r="80" fill="none" stroke="#1e293b" stroke-width="24"/>
+  <circle cx="600" cy="230" r="80" fill="none" stroke="#34d399" stroke-width="24" stroke-dasharray="360 503" transform="rotate(-90 600 230)"/>
+  <text x="565" y="235" fill="#34d399" font-family="Segoe UI" font-size="24" font-weight="700">71.2%</text>
+  <text x="552" y="255" fill="#64748b" font-family="Segoe UI" font-size="11">Win Rate</text>
+
+  <rect x="808" y="80" width="360" height="280" rx="12" fill="#111827" stroke="#1e293b"/>
+  <text x="824" y="110" fill="#94a3b8" font-family="Segoe UI" font-size="14">Skip Reasons (Top)</text>
+  <text x="840" y="150" fill="#64748b" font-family="Segoe UI" font-size="12">insufficient_edge  42%</text>
+  <text x="840" y="180" fill="#64748b" font-family="Segoe UI" font-size="12">regime_chop  18%</text>
+  <text x="840" y="210" fill="#64748b" font-family="Segoe UI" font-size="12">multi_tf_misaligned  14%</text>
+  <text x="840" y="240" fill="#64748b" font-family="Segoe UI" font-size="12">blackout_window  11%</text>
+  <text x="840" y="270" fill="#64748b" font-family="Segoe UI" font-size="12">spread_too_wide  8%</text>
+
+  <rect x="32" y="380" width="1136" height="290" rx="12" fill="#111827" stroke="#1e293b"/>
+  <text x="48" y="410" fill="#94a3b8" font-family="Segoe UI" font-size="14">Rolling Win Rate (7-day)</text>
+  <polyline points="60,600 160,590 260,580 360,570 460,560 560,545 660,530 760,520 860,505 960,490 1060,475 1140,460" fill="none" stroke="#818cf8" stroke-width="2.5"/>
+  <line x1="60" y1="555" x2="1140" y2="555" stroke="#64748b" stroke-width="1" stroke-dasharray="6"/>
+  <text x="1060" y="548" fill="#64748b" font-family="Segoe UI" font-size="11">70% target</text>
+</svg>
