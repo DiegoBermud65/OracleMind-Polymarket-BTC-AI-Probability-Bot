@@ -38,16 +38,16 @@ The developer has achieved **decent paper-trading results** with this framework 
 Paper-trading analytics from a representative 21-day run:
 
 ### PnL Overview
-![PnL Overview](docs/images/dashboard-pnl-overview.svg)
+![PnL Overview](docs/images/dashboard-pnl-overview.png)
 
 ### Win Rate & Setup Analysis
-![Win Rate Analysis](docs/images/dashboard-win-rate-analysis.svg)
+![Win Rate Analysis](docs/images/dashboard-win-rate-analysis.png)
 
 ### Multi-Timeframe Performance
-![Timeframe Analysis](docs/images/dashboard-timeframe-analysis.svg)
+![Timeframe Analysis](docs/images/dashboard-timeframe-analysis.png)
 
 ### Probability Edge Analytics
-![Edge Analytics](docs/images/dashboard-edge-analytics.svg)
+![Edge Analytics](docs/images/dashboard-edge-analytics.png)
 
 | Metric | Value |
 |--------|-------|

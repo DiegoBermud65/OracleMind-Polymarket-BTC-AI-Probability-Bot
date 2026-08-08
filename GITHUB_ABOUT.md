@@ -38,7 +38,7 @@ paper-trading
 
 ## Social preview
 
-Use `docs/images/dashboard-pnl-overview.svg` or export as PNG for Open Graph image.
+Use `docs/images/dashboard-pnl-overview.png` for Open Graph / social preview image.
 
 ## Suggested repo name
 

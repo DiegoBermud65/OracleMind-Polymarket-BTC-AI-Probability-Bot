@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -15,40 +16,40 @@
   </defs>
   <rect width="1200" height="700" fill="url(#bg)"/>
   <rect x="0" y="0" width="1200" height="60" fill="#111827"/>
-  <text x="32" y="38" fill="url(#accent)" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700">OracleMind  PnL Overview</text>
-  <text x="880" y="38" fill="#64748b" font-family="Segoe UI, sans-serif" font-size="13">Paper Mode · 21-Day Run</text>
+  <text x="32" y="38" fill="url(#accent)" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">OracleMind - PnL Overview</text>
+  <text x="880" y="38" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="13">Paper Mode | 21-Day Run</text>
 
   <rect x="32" y="80" width="170" height="90" rx="10" fill="#111827" stroke="#1e293b"/>
-  <text x="48" y="105" fill="#64748b" font-family="Segoe UI" font-size="11">TOTAL PNL</text>
-  <text x="48" y="140" fill="#34d399" font-family="Segoe UI" font-size="28" font-weight="700">+$2,156.80</text>
+  <text x="48" y="105" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11">TOTAL PNL</text>
+  <text x="48" y="140" fill="#34d399" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">+$2,156.80</text>
 
   <rect x="220" y="80" width="170" height="90" rx="10" fill="#111827" stroke="#1e293b"/>
-  <text x="236" y="105" fill="#64748b" font-family="Segoe UI" font-size="11">WIN RATE</text>
-  <text x="236" y="140" fill="#818cf8" font-family="Segoe UI" font-size="28" font-weight="700">71.2%</text>
+  <text x="236" y="105" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11">WIN RATE</text>
+  <text x="236" y="140" fill="#818cf8" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">71.2%</text>
 
   <rect x="408" y="80" width="170" height="90" rx="10" fill="#111827" stroke="#1e293b"/>
-  <text x="424" y="105" fill="#64748b" font-family="Segoe UI" font-size="11">PROFIT FACTOR</text>
-  <text x="424" y="140" fill="#818cf8" font-family="Segoe UI" font-size="28" font-weight="700">2.38</text>
+  <text x="424" y="105" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11">PROFIT FACTOR</text>
+  <text x="424" y="140" fill="#818cf8" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">2.38</text>
 
   <rect x="596" y="80" width="170" height="90" rx="10" fill="#111827" stroke="#1e293b"/>
-  <text x="612" y="105" fill="#64748b" font-family="Segoe UI" font-size="11">AVG EDGE</text>
-  <text x="612" y="140" fill="#34d399" font-family="Segoe UI" font-size="28" font-weight="700">3.4%</text>
+  <text x="612" y="105" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11">AVG EDGE</text>
+  <text x="612" y="140" fill="#34d399" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">3.4%</text>
 
   <rect x="784" y="80" width="170" height="90" rx="10" fill="#111827" stroke="#1e293b"/>
-  <text x="800" y="105" fill="#64748b" font-family="Segoe UI" font-size="11">TRADES</text>
-  <text x="800" y="140" fill="#e2e8f0" font-family="Segoe UI" font-size="28" font-weight="700">412</text>
+  <text x="800" y="105" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11">TRADES</text>
+  <text x="800" y="140" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">412</text>
 
   <rect x="972" y="80" width="196" height="90" rx="10" fill="#111827" stroke="#1e293b"/>
-  <text x="988" y="105" fill="#64748b" font-family="Segoe UI" font-size="11">MAX DRAWDOWN</text>
-  <text x="988" y="140" fill="#f87171" font-family="Segoe UI" font-size="28" font-weight="700">-6.8%</text>
+  <text x="988" y="105" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11">MAX DRAWDOWN</text>
+  <text x="988" y="140" fill="#f87171" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">-6.8%</text>
 
   <rect x="32" y="190" width="1136" height="280" rx="12" fill="#111827" stroke="#1e293b"/>
-  <text x="48" y="218" fill="#94a3b8" font-family="Segoe UI" font-size="14" font-weight="600">Cumulative Equity (Probability Edge Trades Only)</text>
+  <text x="48" y="218" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Cumulative Equity (Probability Edge Trades Only)</text>
   <path d="M48,430 L100,425 L180,410 L260,400 L340,385 L420,370 L500,355 L580,330 L660,315 L740,295 L820,270 L900,245 L980,220 L1060,200 L1152,175 L1152,440 L48,440 Z" fill="url(#green)"/>
   <polyline points="48,430 100,425 180,410 260,400 340,385 420,370 500,355 580,330 660,315 740,295 820,270 900,245 980,220 1060,200 1152,175" fill="none" stroke="#34d399" stroke-width="2.5"/>
 
   <rect x="32" y="490" width="1136" height="190" rx="12" fill="#111827" stroke="#1e293b"/>
-  <text x="48" y="518" fill="#94a3b8" font-family="Segoe UI" font-size="14" font-weight="600">Daily PnL</text>
+  <text x="48" y="518" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Daily PnL</text>
   <rect x="80" y="555" width="36" height="85" rx="3" fill="#34d399" opacity="0.85"/>
   <rect x="130" y="570" width="36" height="70" rx="3" fill="#34d399" opacity="0.85"/>
   <rect x="180" y="540" width="36" height="100" rx="3" fill="#34d399" opacity="0.85"/>

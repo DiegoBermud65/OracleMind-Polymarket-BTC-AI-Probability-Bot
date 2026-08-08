@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
   <rect width="1200" height="700" fill="#070b12"/>
   <rect x="0" y="0" width="1200" height="60" fill="#111827"/>
-  <text x="32" y="38" fill="#f472b6" font-family="Segoe UI" font-size="20" font-weight="700">OracleMind  Probability Edge Analytics</text>
+  <text x="32" y="38" fill="#f472b6" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">OracleMind - Probability Edge Analytics</text>
 
   <rect x="32" y="80" width="550" height="300" rx="12" fill="#111827" stroke="#1e293b"/>
-  <text x="48" y="110" fill="#94a3b8" font-family="Segoe UI" font-size="14">Model vs Market Probability (Executed Trades)</text>
+  <text x="48" y="110" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Model vs Market Probability (Executed Trades)</text>
   <line x1="80" y1="340" x2="520" y2="340" stroke="#334155" stroke-width="1"/>
   <line x1="80" y1="140" x2="520" y2="500" stroke="#64748b" stroke-width="1" stroke-dasharray="4"/>
   <circle cx="180" cy="300" r="6" fill="#34d399"/>
@@ -13,11 +14,11 @@
   <circle cx="360" cy="200" r="6" fill="#818cf8"/>
   <circle cx="420" cy="170" r="8" fill="#34d399"/>
   <circle cx="460" cy="150" r="6" fill="#34d399"/>
-  <text x="80" y="520" fill="#64748b" font-family="Segoe UI" font-size="11">Market P(Up)</text>
-  <text x="40" y="150" fill="#64748b" font-family="Segoe UI" font-size="11" transform="rotate(-90 40 150)">Model P(Up)</text>
+  <text x="80" y="520" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11">Market P(Up)</text>
+  <text x="40" y="150" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11" transform="rotate(-90 40 150)">Model P(Up)</text>
 
   <rect x="618" y="80" width="550" height="300" rx="12" fill="#111827" stroke="#1e293b"/>
-  <text x="634" y="110" fill="#94a3b8" font-family="Segoe UI" font-size="14">Edge After Fees Distribution</text>
+  <text x="634" y="110" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Edge After Fees Distribution</text>
   <rect x="660" y="280" width="40" height="120" rx="2" fill="#818cf8" opacity="0.6"/>
   <rect x="710" y="240" width="40" height="160" rx="2" fill="#818cf8" opacity="0.7"/>
   <rect x="760" y="200" width="40" height="200" rx="2" fill="#34d399" opacity="0.8"/>
@@ -25,20 +26,20 @@
   <rect x="860" y="220" width="40" height="180" rx="2" fill="#34d399" opacity="0.85"/>
   <rect x="910" y="260" width="40" height="140" rx="2" fill="#818cf8" opacity="0.7"/>
   <rect x="960" y="300" width="40" height="100" rx="2" fill="#64748b" opacity="0.5"/>
-  <text x="660" y="420" fill="#64748b" font-family="Segoe UI" font-size="10">2%</text>
-  <text x="810" y="420" fill="#64748b" font-family="Segoe UI" font-size="10">3.5%</text>
-  <text x="960" y="420" fill="#64748b" font-family="Segoe UI" font-size="10">5%+</text>
+  <text x="660" y="420" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="10">2%</text>
+  <text x="810" y="420" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="10">3.5%</text>
+  <text x="960" y="420" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="10">5%+</text>
 
   <rect x="32" y="400" width="1136" height="270" rx="12" fill="#111827" stroke="#1e293b"/>
-  <text x="48" y="430" fill="#94a3b8" font-family="Segoe UI" font-size="14">Risk &amp; Execution Metrics</text>
-  <text x="60" y="480" fill="#64748b" font-family="Segoe UI" font-size="11">MAKER FILL RATE</text>
-  <text x="60" y="510" fill="#34d399" font-family="Segoe UI" font-size="24" font-weight="700">58%</text>
-  <text x="280" y="480" fill="#64748b" font-family="Segoe UI" font-size="11">AVG SLIPPAGE</text>
-  <text x="280" y="510" fill="#e2e8f0" font-family="Segoe UI" font-size="24" font-weight="700">11 bps</text>
-  <text x="500" y="480" fill="#64748b" font-family="Segoe UI" font-size="11">ORACLE BLOCKS</text>
-  <text x="500" y="510" fill="#f87171" font-family="Segoe UI" font-size="24" font-weight="700">23</text>
-  <text x="720" y="480" fill="#64748b" font-family="Segoe UI" font-size="11">CIRCUIT BREAKER TRIPS</text>
-  <text x="720" y="510" fill="#e2e8f0" font-family="Segoe UI" font-size="24" font-weight="700">0</text>
-  <text x="940" y="480" fill="#64748b" font-family="Segoe UI" font-size="11">EXPECTANCY</text>
-  <text x="940" y="510" fill="#34d399" font-family="Segoe UI" font-size="24" font-weight="700">+$5.23</text>
+  <text x="48" y="430" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">Risk and Execution Metrics</text>
+  <text x="60" y="480" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11">MAKER FILL RATE</text>
+  <text x="60" y="510" fill="#34d399" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">58%</text>
+  <text x="280" y="480" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11">AVG SLIPPAGE</text>
+  <text x="280" y="510" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">11 bps</text>
+  <text x="500" y="480" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11">ORACLE BLOCKS</text>
+  <text x="500" y="510" fill="#f87171" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">23</text>
+  <text x="720" y="480" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11">CIRCUIT BREAKER TRIPS</text>
+  <text x="720" y="510" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">0</text>
+  <text x="940" y="480" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="11">EXPECTANCY</text>
+  <text x="940" y="510" fill="#34d399" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">+$5.23</text>
 </svg>
