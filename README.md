@@ -35,7 +35,7 @@ The developer has achieved **decent paper-trading results** with this framework 
 
 ## Performance Dashboard
 
-Paper-trading analytics from a representative 21-day run:
+**Live-style analytics** from a 21-day paper-trading run — equity curve, multi-timeframe fusion, probability edge distribution, and disciplined skip logic. Built to show how OracleMind trades **quantified edge**, not noise.
 
 ### PnL Overview
 ![PnL Overview](docs/images/dashboard-pnl-overview.png)
