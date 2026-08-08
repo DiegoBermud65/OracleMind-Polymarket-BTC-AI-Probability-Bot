@@ -35,19 +35,19 @@ The developer has achieved **decent paper-trading results** with this framework 
 
 ## Performance Dashboard
 
-**Live-style analytics** from a 21-day paper-trading run — equity curve, multi-timeframe fusion, probability edge distribution, and disciplined skip logic. Built to show how OracleMind trades **quantified edge**, not noise.
+**Institutional-grade analytics UI** from a 21-day paper-trading run — designed to showcase how OracleMind finds **quantified probability edge** across 5m, 15m, and 1h BTC Up/Down markets on Polymarket.
 
 ### PnL Overview
-![PnL Overview](docs/images/dashboard-pnl-overview.png)
+![OracleMind PnL Overview — equity curve, KPI cards, daily breakdown](docs/images/dashboard-pnl-overview.png)
 
 ### Win Rate & Setup Analysis
-![Win Rate Analysis](docs/images/dashboard-win-rate-analysis.png)
+![OracleMind Win Rate Analysis — setup types, outcome distribution, skip discipline](docs/images/dashboard-win-rate-analysis.png)
 
 ### Multi-Timeframe Performance
-![Timeframe Analysis](docs/images/dashboard-timeframe-analysis.png)
+![OracleMind Multi-Timeframe Fusion — 1h bias, 15m confirm, 5m execute](docs/images/dashboard-timeframe-analysis.png)
 
 ### Probability Edge Analytics
-![Edge Analytics](docs/images/dashboard-edge-analytics.png)
+![OracleMind Edge Analytics — model vs market probability, edge distribution, execution metrics](docs/images/dashboard-edge-analytics.png)
 
 | Metric | Value |
 |--------|-------|
